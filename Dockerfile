@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:alpine
 
 ENV WORK /opt/ticketzones
 
