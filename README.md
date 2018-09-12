@@ -1,7 +1,8 @@
 # HSL Ticket Zones Map
 
-A simple map that shows the Helsinki Regional Traffic ticket zones that will come into effect in the beginning of 2019.
-Made to be embeddable and self-sufficient.
+A simple map that shows the Helsinki Regional Traffic ticket zones that will come into effect in the beginning of 2019. It is made to be embeddable and self-sufficient.
+
+The map uses [mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js) to render the map based on [HSL's vector styles](https://github.com/HSLdevcom/hsl-map-style). There is no build step involved in this application, but a server is included to generate the vector styles and serve the application HTML file. It runs in a Docker container in production.
 
 ### Develop
 
@@ -27,7 +28,7 @@ To start the server with Forever and logging, run the `start` script. This is wh
 yarn start
 ```
 
-There is no build step in this application. Now you can visit the site at [http://localhost:3000](http://localhost:3000).
+Now you can visit the site at [http://localhost:3000](http://localhost:3000).
 
 ### Production
 
