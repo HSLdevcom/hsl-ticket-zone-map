@@ -1,7 +1,7 @@
 {
   "name": "hsl-ticket-zone-map",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
     "start": "forever start server.js -l server.log -o server-out.log -e server-err.log && forever -f logs 0",
