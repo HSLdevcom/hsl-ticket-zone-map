@@ -29,9 +29,8 @@
     zoom: 9 // starting zoom
   });
 
-  map.on('click', () => {
-    console.log(map.getCenter(), map.getZoom())
-  })
+  // Add zoom and rotation controls to the map.
+  map.addControl(new mapboxgl.NavigationControl());
 </script>
 </body>
 </html>
