@@ -1,3 +1,6 @@
+DEPRECATED, use Digitransit.
+===
+
 # HSL Ticket Zones Map
 
 A simple map that shows the Helsinki Regional Traffic ticket zones that will come into effect in the beginning of 2019. It is made to be embeddable and self-sufficient.
